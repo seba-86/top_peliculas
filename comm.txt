@@ -1,0 +1,3 @@
+\i '/Users/sebastianandres/Desktop/data_base_movies/peliculas.sql'
+\copy peliculas from '/Users/sebastianandres/Desktop/data_base_movies/peliculas.csv' csv header;
+\copy reparto FROM '/Users/sebastianandres/Desktop/data_base_movies/reparto.csv' csv;
